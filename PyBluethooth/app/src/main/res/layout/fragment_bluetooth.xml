@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="vn.edu.sunny.myapplication.Bluetooth_Fragment"
+
+    >
+
+    <TextView
+        android:id="@+id/textView_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment" />
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="send" />
+
+    <RadioGroup
+        android:id="@+id/radioLEDID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioLed1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LED 1" />
+
+        <RadioButton
+            android:id="@+id/radioLed2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LED 2" />
+
+        <RadioButton
+            android:id="@+id/radioLed3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LED 3" />
+
+        <RadioButton
+            android:id="@+id/radioLed4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LED 4" />
+
+    </RadioGroup>
+
+    <vn.edu.sunny.myapplication.RotorKnob
+        android:id="@+id/knobBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp" />
+
+</LinearLayout>

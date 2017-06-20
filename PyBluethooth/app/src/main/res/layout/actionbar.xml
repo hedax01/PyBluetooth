@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+    tools:context="vn.edu.sunny.myapplication.MyActionBar"
+    android:id="@+id/barStyle"
+    style="@style/ActionBar">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/actionbar_height"
+        android:paddingLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/actionBarMenu"
+            style="@style/ActionBar.HomeLogo" />
+
+
+        <TextView
+            android:id="@+id/acTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center"
+            android:padding="5dp"
+            android:text="titledasdasasfa"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/actionbar_action"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/actionbar_height"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:paddingRight="5dp"
+        android:orientation="horizontal">
+
+        />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

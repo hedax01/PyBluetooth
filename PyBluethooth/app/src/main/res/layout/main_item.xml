@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Item_main"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:id="@+id/Item_main_view">
+
+    <LinearLayout
+        android:layout_width="235dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/home_background"
+        android:orientation="vertical"
+        android:padding="10dp"
+		android:id="@+id/main_banner"
+		>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_temperate"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30 \u2103"
+                android:id="@+id/text_temperate"
+                android:layout_gravity="bottom"
+                android:textColor="@android:color/holo_blue_dark"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_humidity"
+                />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="80%"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_gravity="bottom"
+            android:id="@+id/text_humidity"/>
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:background="@drawable/led_home_guest"
+                android:text="hello"
+                android:id="@+id/button_led1"
+                />
+
+            <TextView
+                android:layout_width="3.5dp"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:background="@drawable/led_home_font"
+                android:id="@+id/button_led2"
+                android:text="hello" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3.5dp" />
+        <ImageButton            
+            android:layout_width="match_parent"
+            android:layout_height="40.5dp"
+            android:background="@drawable/led_home_center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="3.5dp">
+
+            <ImageButton
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:background="@drawable/led_home_guest"
+                android:text="hello"
+                android:id="@+id/button_led3"
+                />
+
+            <TextView
+                android:layout_width="3.5dp"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:background="@drawable/led_home_guest"
+                android:text="hello"
+                android:id="@+id/button_led4"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

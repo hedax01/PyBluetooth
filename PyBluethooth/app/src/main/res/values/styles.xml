@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--Action Bar-->
+    <style name="ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#5191f5</item>
+    </style>
+    <style name="ActionBar.HomeLogo">
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginLeft">0px</item>
+        <item name="android:layout_height">@dimen/actionbar_item_height</item>
+        <item name="android:layout_width">@dimen/actionbar_item_width</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="ActionBar.Item">
+        <item name="android:layout_height">@dimen/actionbar_item_height</item>
+        <item name="android:layout_width">@dimen/actionbar_item_width</item>
+        <item name="android:layout_marginLeft">1dp</item>
+    </style>
+    <style name="ActionBar.separator">
+        <item name="android:layout_height">@dimen/actionbar_item_height</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:background">@color/actionbar_separator</item>
+        <item name="android:padding">5dp</item>
+    </style>
+<!--end ActionBar-->
+
+    <style name="Item_main">
+        <item name="android:layout_height">@dimen/item_main_height</item>
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+</resources>

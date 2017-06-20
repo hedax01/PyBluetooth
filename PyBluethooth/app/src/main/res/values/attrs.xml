@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Item_main_view">
+        <attr name="bannerImage" format="reference"/>
+        <attr name="ledButtonImage" format="reference"/>
+    </declare-styleable>
+
+
+</resources>

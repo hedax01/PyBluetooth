@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_mainContents"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <vn.edu.sunny.myapplication.Item_main_view style="@style/Item_main"
+        android:id="@+id/content1"
+        custom:bannerImage="@drawable/led_home_center"
+        />
+
+    <vn.edu.sunny.myapplication.Item_main_view style="@style/Item_main"
+        />
+
+    <vn.edu.sunny.myapplication.Item_main_view style="@style/Item_main" />
+
+    <Button
+        android:id="@+id/button_callHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call Home" />
+
+    <Button
+        android:id="@+id/button_callBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call Blue" />
+
+</LinearLayout>
